@@ -1,0 +1,15 @@
+var saida = document.getElementById("saida");
+//sem valor definido
+var idade;
+var maisVelho = 3 * idade;
+saida.innerHTML +="NaN:" + maisVelho + "<br>";
+
+//nulo
+var idade2 = null;
+var maisVelho2 = 3 * idade2;
+saida.innerHTML += "null:" + maisVelho2 +"<br>";
+
+//valor dedinido
+var idade2 = 4;
+var maisVelho2 = 3 * idade2;
+saida.innerHTML += "null:" + maisVelho2 +"<br>";
